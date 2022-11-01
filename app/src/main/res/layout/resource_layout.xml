@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/Base"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/Header"
+            android:layout_width="match_parent"
+            android:layout_height="150px"
+            android:layout_margin="50px"
+            android:layout_marginStart="50px"
+            android:layout_marginTop="50px"
+            android:layout_marginEnd="50px"
+            android:layout_marginBottom="50px"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="150px"
+                android:layout_height="match_parent"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <LinearLayout
+                android:id="@+id/Title"
+                android:layout_width="600px"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                android:paddingLeft="50px">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:text="YEAYEAY"
+                    android:textColor="@color/black"
+                    android:textSize="10pt"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="APP" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/hamburger_menu" />
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ANYTHING YOU CAN DO"
+                        android:padding="30px"
+                        android:textAlignment="center"
+                        />
+
+                    <LinearLayout
+                        android:id="@+id/Content"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/materi1"
+                            android:layout_width="750px"
+                            android:layout_height="500px"
+                            android:background="#32f"
+                            android:orientation="vertical">
+
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/imageView3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:padding="20px"
+                                    tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+                                <TextView
+                                    android:id="@+id/textView4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="50px"
+                                    android:paddingLeft="30px"
+                                    android:text="Financial"
+
+                                    android:textColor="#fff"
+                                    android:textStyle="bold" />
+                            </FrameLayout>
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
