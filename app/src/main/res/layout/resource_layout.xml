@@ -42,7 +42,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-black"
-                    android:text="YEAYEAY"
+                    android:text="CODELEARN"
                     android:textColor="@color/black"
                     android:textSize="10pt"
                     android:textStyle="bold" />
@@ -59,19 +59,19 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:padding="30px"
                 app:srcCompat="@drawable/hamburger_menu" />
 
 
                     </LinearLayout>
 
-                    <TextView
-                        android:id="@+id/textView3"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="ANYTHING YOU CAN DO"
-                        android:padding="30px"
-                        android:textAlignment="center"
-                        />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30px"
+            android:text="ANYTHING YOU CAN LEARN"
+            android:textAlignment="center" />
 
                     <LinearLayout
                         android:id="@+id/Content"
@@ -83,6 +83,67 @@
                             android:id="@+id/materi1"
                             android:layout_width="750px"
                             android:layout_height="500px"
+                            android:orientation="vertical"
+                            >
+
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="#0040FF">
+
+                                <ImageView
+                                    android:id="@+id/imageView3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:padding="20px"
+                                    tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/Title1"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="70px"
+
+                                        android:layout_marginTop="50px"
+                                        android:text="HTML"
+                                        android:textColor="@android:color/black"
+                                        android:textSize="30sp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/textView4"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="100px"
+                                        android:text="Lorem ipsum dolor sit amet bogoh maneh keur nanaonan kabeh na tauuuuuuu intnasiodijf dfoaij fods" />
+
+                                    <Button
+                                        android:id="@+id/button"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="300px"
+                                        android:layout_marginTop="50px"
+                                        android:layout_marginRight="60px"
+                                        android:text="READ MORE" />
+                                </LinearLayout>
+
+                            </FrameLayout>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/materi2"
+                            android:layout_width="750px"
+                            android:layout_height="500px"
+                            android:layout_marginLeft="320px"
+                            android:layout_marginTop="80px"
                             android:background="#32f"
                             android:orientation="vertical">
 
@@ -92,22 +153,108 @@
                                 android:layout_height="match_parent">
 
                                 <ImageView
-                                    android:id="@+id/imageView3"
+                                    android:id="@+id/imageView6"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:padding="20px"
                                     tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
-                                <TextView
-                                    android:id="@+id/textView4"
+                                <LinearLayout
                                     android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:padding="50px"
-                                    android:paddingLeft="30px"
-                                    android:text="Financial"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical"
+                                    >
 
-                                    android:textColor="#fff"
-                                    android:textStyle="bold" />
+                                    <TextView
+                                        android:id="@+id/Title2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="70px"
+
+                                        android:layout_marginTop="50px"
+                                        android:text="CSS"
+                                        android:textColor="#fff"
+                                        android:textSize="30sp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/textView8"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="100px"
+                                        android:text="Lorem ipsum dolor sit amet bogoh maneh keur nanaonan kabeh na tauuuuuuu intnasiodijf dfoaij fods"
+                                        android:textColor="@color/white" />
+
+                                    <Button
+                                        android:id="@+id/button2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="300px"
+                                        android:layout_marginTop="50px"
+                                        android:layout_marginRight="60px"
+                                        android:text="READ MORE" />
+                                </LinearLayout>
+
+                            </FrameLayout>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/materi3"
+                            android:layout_width="750px"
+                            android:layout_height="500px"
+                            android:layout_marginTop="80px"
+                            android:background="#1af"
+                            android:orientation="vertical">
+
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/imageView11"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:padding="20px"
+                                    tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/Title9"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="70px"
+
+                                        android:layout_marginTop="50px"
+                                        android:text="Javascript"
+                                        android:textColor="#fff"
+                                        android:textSize="30sp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/textView13"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="100px"
+                                        android:text="Lorem ipsum dolor sit amet bogoh maneh keur nanaonan kabeh na tauuuuuuu intnasiodijf dfoaij fods"
+                                        android:textColor="@color/white" />
+
+                                    <Button
+                                        android:id="@+id/button3"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="300px"
+                                        android:layout_marginTop="50px"
+                                        android:layout_marginRight="60px"
+                                        android:text="READ MORE" />
+                                </LinearLayout>
+
                             </FrameLayout>
 
 
